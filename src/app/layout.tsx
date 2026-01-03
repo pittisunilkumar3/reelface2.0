@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | ReelFace",
   },
   description:
-    "ReelFace is a digital media platform focused on founder interviews, startup stories, and authentic brand promotions that people actually trust.",
+    "Reelface is a digital platform focused on creative brand promotions that people actually trust. ",
   keywords: [
     "founder interviews",
     "startup stories",

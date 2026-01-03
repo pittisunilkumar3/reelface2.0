@@ -139,4 +139,4 @@ See `.env.example` for all available environment variables.
 
 ## License
 
-All rights reserved © 2025 ReelFace
+All rights reserved © 2026 ReelFace

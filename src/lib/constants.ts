@@ -6,7 +6,7 @@ export const SITE_CONFIG = {
   name: "ReelFace",
   tagline: "Real Faces. Real Stories. Real Brands.",
   description:
-    "ReelFace is a digital media platform focused on founder interviews, startup stories, and authentic brand promotions that people actually trust.",
+    "Reelface is a digital platform focused on creative brand promotions that people actually trust. ",
   url: "https://reelface.com",
   ogImage: "/og-image.png",
 } as const;

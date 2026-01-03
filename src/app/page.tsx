@@ -50,16 +50,16 @@ export default function ReelfaceWebsite() {
                 className="rounded-2xl px-6 py-6 text-base bg-white text-[#EF4444] hover:bg-white/95 hover:scale-105 font-semibold shadow-lg hover:shadow-2xl transition-all duration-300"
                 aria-label="Book an interview with ReelFace"
               >
-                Book an Interview <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                Book an promotion <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
               </Button>
-              <Button 
+              {/* <Button 
                 onClick={() => openModal("brand")}
                 variant="outline" 
                 className="rounded-2xl px-6 py-6 text-base border-2 border-white text-white hover:bg-white/20 font-semibold backdrop-blur-sm transition-all"
                 aria-label="Promote your brand with ReelFace"
               >
                 Promote Your Brand
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
 
@@ -109,8 +109,8 @@ export default function ReelfaceWebsite() {
           What Reelface Does
         </motion.h2>
 
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
-          <Card className="bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
+          {/* <Card className="bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
             <CardContent className="p-8">
               <div className="bg-gradient-to-br from-[#EF4444] to-[#9333EA] rounded-2xl p-4 w-fit group-hover:shadow-lg group-hover:shadow-[#EF4444]/20 transition-all">
                 <Mic className="h-10 w-10 text-white" />
@@ -120,7 +120,7 @@ export default function ReelfaceWebsite() {
                 Honest conversations with startup founders, creators, and leaders — shot simply, told powerfully.
               </p>
             </CardContent>
-          </Card>
+          </Card> */}
 
           <Card className="bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
             <CardContent className="p-8">
@@ -154,24 +154,24 @@ export default function ReelfaceWebsite() {
         <div className="max-w-7xl mx-auto px-6 py-24 relative">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">Our Interview Format</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">Our Promotion Format</h2>
               <ul className="mt-6 space-y-3 text-gray-700 text-lg">
                 <li className="flex items-start">
                   <span className="text-[#EF4444] mr-3 text-xl font-bold">•</span>
-                  <span>20–40 minute founder conversations</span>
+                  <span>Story-driven brand content (not ads)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#EF4444] mr-3 text-xl font-bold">•</span>
-                  <span>Short reels for Instagram & YouTube Shorts</span>
+                  <span>High-retention short videos</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#EF4444] mr-3 text-xl font-bold">•</span>
-                  <span>Mobile-first, raw & relatable shooting style</span>
+                  <span>Founder credibility × brand visibility</span>
                 </li>
-                <li className="flex items-start">
+                {/* <li className="flex items-start">
                   <span className="text-[#EF4444] mr-3 text-xl font-bold">•</span>
                   <span>Telugu & English friendly content</span>
-                </li>
+                </li> */}
               </ul>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
@@ -206,15 +206,15 @@ export default function ReelfaceWebsite() {
               onClick={() => openModal("interview")}
               className="rounded-2xl px-8 py-6 text-base bg-white text-[#EF4444] hover:bg-white/95 font-semibold shadow-xl hover:shadow-2xl transition-all"
             >
-              Apply for Interview
+              Apply for Promotion
             </Button>
-            <Button 
+            {/* <Button 
               onClick={() => openModal("brand")}
               variant="outline" 
               className="rounded-2xl px-8 py-6 text-base border-2 border-white text-white hover:bg-white/20 font-semibold backdrop-blur-sm transition-all"
             >
               Brand Collaboration
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
@@ -222,8 +222,8 @@ export default function ReelfaceWebsite() {
       {/* Footer */}
       <footer className="border-t border-purple-200 bg-gradient-to-r from-purple-50 to-red-50" role="contentinfo">
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
-          <p>© {new Date().getFullYear()} Reelface. All rights reserved.</p>
-          <p className="text-gray-500" aria-label="Services offered">Founder Interviews • Brand Promotions • Digital Media</p>
+          <p>© {new Date().getFullYear()} Kind made by Devmithra.</p>
+          <p className="text-gray-500" aria-label="Services offered">• Brand Promotions • Digital Media</p>
         </div>
       </footer>
     </div>
