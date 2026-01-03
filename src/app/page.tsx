@@ -50,7 +50,7 @@ export default function ReelfaceWebsite() {
                 className="rounded-2xl px-6 py-6 text-base bg-white text-[#EF4444] hover:bg-white/95 hover:scale-105 font-semibold shadow-lg hover:shadow-2xl transition-all duration-300"
                 aria-label="Book an interview with ReelFace"
               >
-                Book an promotion <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                Book an Promotion <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
               </Button>
               {/* <Button 
                 onClick={() => openModal("brand")}
@@ -109,7 +109,7 @@ export default function ReelfaceWebsite() {
           What Reelface Does
         </motion.h2>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch place-items-center">
           {/* <Card className="bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
             <CardContent className="p-8">
               <div className="bg-gradient-to-br from-[#EF4444] to-[#9333EA] rounded-2xl p-4 w-fit group-hover:shadow-lg group-hover:shadow-[#EF4444]/20 transition-all">
@@ -122,7 +122,7 @@ export default function ReelfaceWebsite() {
             </CardContent>
           </Card> */}
 
-          <Card className="bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
+          <Card className="w-full max-w-xl bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
             <CardContent className="p-8">
               <div className="bg-gradient-to-br from-[#EF4444] to-[#9333EA] rounded-2xl p-4 w-fit group-hover:shadow-lg group-hover:shadow-[#EF4444]/20 transition-all">
                 <Briefcase className="h-10 w-10 text-white" />
@@ -134,7 +134,7 @@ export default function ReelfaceWebsite() {
             </CardContent>
           </Card>
 
-          <Card className="bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
+          <Card className="w-full max-w-xl h-full bg-white/80 backdrop-blur-sm border-purple-100 rounded-3xl hover:bg-gradient-to-br hover:from-purple-50 hover:to-red-50 hover:border-[#EF4444]/30 transition-all duration-300 group shadow-lg hover:shadow-xl">
             <CardContent className="p-8">
               <div className="bg-gradient-to-br from-[#EF4444] to-[#9333EA] rounded-2xl p-4 w-fit group-hover:shadow-lg group-hover:shadow-[#EF4444]/20 transition-all">
                 <Users className="h-10 w-10 text-white" />
