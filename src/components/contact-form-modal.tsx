@@ -65,7 +65,7 @@ export function ContactFormModal({ isOpen, onClose, formType }: ContactFormModal
         },
         body: JSON.stringify({
           ...formData,
-          type: formType === "interview" ? "Book an Interview" : "Brand Collaboration",
+          type: formType === "interview" ? "Book a Promotion" : "Brand Collaboration",
         }),
       });
 
@@ -103,7 +103,7 @@ export function ContactFormModal({ isOpen, onClose, formType }: ContactFormModal
           <div className="relative flex items-start justify-between">
             <div>
               <h2 className="text-3xl font-bold text-white mb-2">
-                {formType === "interview" ? "Book an Interview" : "Brand Collaboration"}
+                {formType === "interview" ? "Book a Promotion" : "Brand Collaboration"}
               </h2>
               <p className="text-white/90 text-sm">
                 {formType === "interview"

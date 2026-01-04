@@ -41,8 +41,7 @@ export default function ReelfaceWebsite() {
               Real Faces. <br /> Real Stories. <br /> Real Brands.
             </h1>
             <p className="mt-6 text-lg text-white/90 max-w-xl drop-shadow-md">
-              Reelface is a digital media platform focused on founder interviews,
-              startup stories, and authentic brand promotions that people actually trust.
+              Reelface is a digital media platform focused on brand visibility and engagement that people actually trust.
             </p>
             <div className="mt-8 flex gap-4 flex-wrap">
               <Button 
@@ -50,7 +49,7 @@ export default function ReelfaceWebsite() {
                 className="rounded-2xl px-6 py-6 text-base bg-white text-[#EF4444] hover:bg-white/95 hover:scale-105 font-semibold shadow-lg hover:shadow-2xl transition-all duration-300"
                 aria-label="Book an interview with ReelFace"
               >
-                Book an Promotion <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                Book a Promotion <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
               </Button>
               {/* <Button 
                 onClick={() => openModal("brand")}
@@ -196,7 +195,7 @@ export default function ReelfaceWebsite() {
         <div className="absolute inset-0 bg-gradient-to-br from-[#EF4444] via-[#9333EA] to-[#312E81]" />
         <div className="relative max-w-7xl mx-auto px-6 py-24 text-center">
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-3xl md:text-4xl font-bold">
-            Let&apos;s Put a Real Face to Your Story
+            Let&apos;s Put a Reelface to Your Story
           </motion.h2>
           <p className="mt-6 text-white/90 max-w-2xl mx-auto text-lg">
             Whether you are a founder or a brand, Reelface helps you connect with audiences through authenticity.
